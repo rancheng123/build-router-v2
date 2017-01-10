@@ -1,0 +1,67 @@
+@charset 'utf-8';
+@import 'common';
+.how-raise-con {
+  padding:32px 0 30px 0;
+  height:475px;
+  .sidebar {
+    margin-right: 35px;
+    float: left;
+    width:198px;
+    padding-top: 7px;
+    li {
+      text-align:right;
+      font-size:$fs14;
+      padding-right:25px;
+      line-height: 52px;
+      a{
+        color: $light-gray;
+        text-decoration:none;
+        &:hover {
+          color: $blue;
+        }
+      }
+      &.crt {
+        background:url(../images/icon/crt-icon.png) no-repeat right center;
+        font-size:$fs16;
+        a {
+          color: $blue;
+        }
+      }
+    }
+  }
+  .step {
+    height:360px;
+  }
+  .side-con {
+    float:left;
+    height:100%;
+    width:766px;
+    background-color:#f3faff;
+    .step-1{
+      padding:52px 0 0 30px;
+    }
+    .step-2{
+      padding:49px 0 0 40px;
+    }
+    .step-3{
+      padding:34px 0 0 45px;
+    }
+    .step-4{
+      padding:45px 0 0 41px;
+    }
+    .raise-intro {
+      padding-left: 42px;
+      li {
+        line-height: 32px;
+        font-size:$fs16;
+        color:$blue;
+        padding-left: 12px;
+        background:url(../images/icon/line-4.jpg) no-repeat left 8px;
+      }
+    }
+  }
+}
+.raise-pd {
+  padding-bottom:20px !important;
+
+}

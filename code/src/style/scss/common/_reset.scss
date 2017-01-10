@@ -1,0 +1,95 @@
+﻿@charset "utf-8";
+body,
+ul,li,ol,span,a,em,i,div,p,html,img,h1,h2,h3,h4,h5,h6,input,textarea,dl,dt,dd,th,tr,td,form,header,footer,section,article,aside,nav,hgroup,address,figure,figcaption,menu,details{padding: 0;margin: 0;}
+ul,ol,li{
+	list-style:none;
+}
+/*border: none;修复图片加链接时的蓝色边框,display:block;修复图片底部一像素的空白*/
+img{
+	border: none;
+	vertical-align:top;
+}
+em,i{
+	font-style: normal;
+}
+input,textarea,button{
+	border:none;
+	background:transparent;
+	outline:none;
+}
+h1,h2,h3,h4,h5,h6{
+	font-size: 100%;
+	font-weight: normal;
+}
+a:link{
+	text-decoration: none;
+}
+a:visited{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+}
+a:active{
+	text-decoration: none;
+}
+header,footer,section,article,aside,nav,hgroup,address,figure,figcaption,menu,details{
+	display:block;
+}
+/*overflow:auto：textarea初始没有滚动条,resize:none：不能调整大小,font-size:100%：修复表单元素的字号不继承body字号的问题*/
+textarea{
+	overflow:auto;
+	resize:none;
+}
+input,textarea{
+	font-family: inherit;
+	font-size:100%;
+}
+::-webkit-input-placeholder{
+	color:#999;
+}
+:-moz-placeholder{
+	color:#999;
+}
+::-moz-placeholder{
+	color:#999;
+}
+:-ms-input-placeholder{
+	color:#999;
+}
+input,a{
+    -webkit-appearance:none;
+	-moz-appearance:none;
+	-webkit-tap-highlight-color:transparent;
+	-webkit-transition:background-color;
+	outline: none;
+	border:none;
+	border-radius:0;
+	font-family:inherit;
+}
+*{
+	-webkit-tap-highlight-color: rgba(0,0,0,0);/*-webkit-user-select: none;*/
+}
+html{
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+}
+table{
+	border-collapse:collapse;
+	border-spacing:0;
+}
+.clearfix:before,.clearfix:after{
+	content:"";
+	display:table;
+}
+.clearfix:after{
+	clear:both;
+}
+.clearfix{
+	*zoom:1;
+}
+input:-webkit-autofill {
+	-webkit-box-shadow: 0 0 0 1000px white inset;
+}
+::-ms-clear{display:none;}
+::-ms-reveal{display:none;}

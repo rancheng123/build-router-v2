@@ -1,0 +1,65 @@
+@charset 'utf-8';
+@import 'common';
+
+.sso-loading{
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -37px;
+}
+.launch-type-tips {
+  margin:14px 0 -15px 0;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+  background-color:#e5f3ff;
+  font-size:$fs16;
+  color:#ff6421;
+  border-radius:5px;
+}
+.launch-type-select {
+  padding:55px 0 94px 124px;
+  li {
+    float: left;
+    width:280px;
+    height: 248px;
+    text-align: center;
+    font-size:$fs16;
+    margin-left: 68px;
+    padding-top: 32px;
+    line-height: 22px;
+
+    cursor:pointer;
+    a {
+      b {
+        color: $gray;
+      }
+      p {
+        color:$light-gray;
+      }
+    }
+    &.crt {
+      box-shadow: 0 0 18px 0  rgba(167,214,255,0.5);
+    }
+    a {
+      color:$dark-gray;
+    }
+    b {
+      font-weight:bold;
+      font-size:$fs22;
+      display:block;
+      padding:24px 0 7px 0;
+
+    }
+    i {
+      background:url("../images/icon/launch-type.png");
+      &.reward {
+        @include backgroundImage(200px,113px,0 0,true);
+      }
+      &.friend {
+        @include backgroundImage(210px,113px,0 -117px,true);
+      }
+    }
+  }
+}

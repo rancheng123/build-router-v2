@@ -1,0 +1,39 @@
+@charset 'utf-8';
+@import 'common';
+.nav {
+  width: 255px;
+  text-align:right;
+  float: left;
+  border-right:1px solid $gray-border-color;
+  padding:20px 30px 42px 0;
+  li {
+    color: $light-gray;
+    padding-right:21px;
+    font-size:$fs18;
+    margin-bottom:33px;
+    a {
+      color: $light-gray;
+      text-decoration:underline;
+      &:hover {
+        color: $dark-gray;
+      }
+    }
+    &.crt {
+      background:url(../images/icon/crt-icon.png) no-repeat right center;
+      a {
+        color: $blue;
+        text-decoration:none;
+      }
+    }
+  }
+}
+.details-con {
+  width: 588px;
+  float: left;
+  margin-left:48px;
+}
+.details-con-bottom {
+  width:730px;
+  margin-left:auto;
+  margin-right:auto;
+}

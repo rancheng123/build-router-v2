@@ -1,0 +1,162 @@
+@charset 'utf-8';
+
+
+/*发起-详情*/
+.launch-details-con {
+  width: 730px;
+  margin:0 auto;
+}
+.circle {
+  width: 6px;
+  height: 6px;
+  border-radius:50%;
+  background-color:$blue;
+  display:inline-block;
+  margin:0 18px;
+  vertical-align:middle;
+}
+.blue {
+  color:$blue;
+}
+/*发起-信息*/
+
+.please-bind {
+  font-size:$fs20;
+  padding:30px 0 4px 0;
+}
+.bind-tags {
+  font-size:$fs14;
+  line-height: 24px;
+  padding:25px 0 8px 0;
+  color:$light-gray;
+  .no-update {
+    color: $orange;
+  }
+}
+/*发起-分享*/
+.launch-share {
+  width:790px;
+  margin:0 auto;
+}
+.launch-share-top {
+  padding:73px 0 60px 0;
+}
+.wx-code {
+  float: left;
+  width:140px;
+  border-right:1px solid #d2d2d2;
+  padding:0 30px 0 117px;
+  img {
+    width: 100%;
+    height: 140px;
+  }
+  .sweep {
+    font-size:$fs14;
+    padding-top: 8px;
+  }
+}
+.share-area {
+  float: left;
+  width:465px;
+  padding-left: 36px;
+  a {
+    color: $dark-gray;
+  }
+
+}
+.share-list  {
+  padding-top: 14px;
+  li {
+    float: left;
+    text-align:center;
+    font-size:0;
+  }
+  span {
+    font-size:$fs14;
+    line-height: 27px;
+  }
+  i {
+    background:url(../images/icon/qq-sina-icon.png) no-repeat;
+    @include backgroundImage(27px,27px,-27px 0,true);
+    float: left;
+    margin-right: 10px;
+  }
+  a:hover {
+    color:$blue;
+  }
+}
+.share-tips {
+  font-size:$fs16;
+  line-height: 28px;
+  padding-top: 30px;
+}
+.launch-share-header {
+  padding:58px 0 47px 0;
+}
+.manger-code {
+  float: left;
+  padding:0 52px 0 155px;
+  border-right:1px solid #d2d2d2;
+}
+.manger-d {
+  margin-top:-5px;
+  font-size:$fs24;
+}
+.manger-m {
+  font-size:$fs18;
+  line-height:1;
+}
+.to-understand {
+  float: left;
+  padding:34px 0 0 60px;
+  font-size:$fs16;
+  line-height: 28px;
+}
+/*共用于我的众筹页面*/
+.my-zc {
+  margin:23px 22px 0 0;
+  @include  baseButton(88px,28px,$blue,$fs14,$white,true,inline-block,false);
+}
+.Jcrop-ok{
+  /*background-color: $base-bg-color;*/
+  /*background-color: rgba(255,255,255,.3);*/
+  line-height: 36px;
+  color: $white;
+  padding: 0 18px;
+  font-size: $fs14;
+  border-radius: 5px;
+}
+
+
+/*请再次确认身份证弹层*/
+.identity-pop {
+  padding:65px 43px 50px;
+  width: 344px;
+  .tips {
+    font-size:$fs20;
+    color:$orange;
+  }
+}
+.identity-list {
+  padding-top:22px;
+  li{
+    font-size:$fs18;
+    margin-top: 25px;
+    em {
+      padding-right: 35px;
+    }
+    span{
+      width: 117px;
+      color:$dark-gray;
+      display:inline-block;
+    }
+  }
+}
+.identity-btns {
+  padding-top: 52px;
+  text-align:center;
+  a:first-child {
+    margin-right: 26px;
+  }
+}
+

@@ -1,0 +1,51 @@
+<!--第三步 start-->
+<div id="thirdStep" class="content pb32">
+    <div class="launch-tit">
+        <h2 class="tc">还差一步即可马上众筹</h2>
+    </div>
+    <div class="launch-infor-con">
+        <form id="validateForm-idenfity">
+            <legend class="please-bind">请绑定身份信息</legend>
+            <div class="formitm vali-item">
+                <label class="label1"><em>姓</em>名</label>
+
+                <div class="ipt">
+                    <input type="text" name="name" class="u-ipt  vali-yes vali-required">
+                    <span class="vali-error ipt-error error"></span>
+                </div>
+            </div>
+            <div class="formitm vali-item">
+                <label class="label1">身份证号</label>
+
+                <div class="ipt">
+                    <input type="text" name="identity" class="u-ipt vali-yes vali-required vali-isIDCard">
+                    <span class="vali-error ipt-error error"></span>
+                </div>
+            </div>
+            <div class="bind-tags">
+                <p class="no-update">提交后无法修改。身份证姓名必须与结款时的银行卡开户名一致！</p>
+                如果你利用本平台从事违法诈骗行为，涉及刑事责任的，一经发现，平台将主动移交相关资料
+                至公安机关立案。
+            </div>
+            <div class="launch-btns-area">
+                <a href="javascript:" class="back js-backToFirstStep-second">&lt; 返回</a>
+                <a href="javascript:" class="complete-btn js-confirm">确认</a>
+            </div>
+        </form>
+    </div>
+</div>
+<script id="tpl-identity" type="text/x-jquery-tmpl">
+    <div class="identity-pop">
+            <div class="tips">请再次确认你的身份，提交后无法修改</div>
+            <ul class="identity-list">
+                <li><span><em>姓</em>名</span><span class="userName"></span></li>
+                <li><span>身份证号</span><span class="cardNumber"></span></li>
+            </ul>
+            <div class="identity-btns">
+                <a href="javascript:" class="cancel">取消</a>
+                <a href="javascript:" class="confirm-submit">确认提交</a>
+            </div>
+        </div>
+
+</script>
+<!--第三步 end-->

@@ -1,0 +1,30 @@
+@charset 'utf-8';
+@import 'common';
+.financing-two {
+  width:585px;
+}
+.financing-target {
+  width:308px;
+  margin-right: 18px;
+}
+.financing-days {
+  width:259px;
+}
+.feedback {
+  width:100%;
+  td,th {
+    border: 1px #e4e4e4 solid;
+    border-collapse:collapse;
+    text-align: center;
+  }
+}
+.use-old {
+  position:absolute;
+  right:45px;
+  top:45px;
+  text-decoration:underline !important;
+  color: $light-gray;
+  &:hover {
+    color:$dark-gray;
+  }
+}

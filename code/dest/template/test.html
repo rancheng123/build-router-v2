@@ -1,0 +1,15 @@
+<div>
+    {{each(i,item) list}}
+    {{if item.name == 'rancheng'}}
+    <div style="width:100px;background:green;">${item.name}</div>
+    {{else}}
+    <div>${item.name}</div>
+    {{/if}}
+    {{/each}}
+</div>
+
+<script type="text/tcl" id="groupTmpl">
+    _[{each(i,item) list}]_
+        <div>$_[item.name]_</div>
+    _[{/each}]_
+</script>

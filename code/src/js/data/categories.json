@@ -1,0 +1,66 @@
+{
+  "errno": 0,
+  "error": "success",
+  "data": [
+    {
+      "id": "10",
+      "name": "教育",
+      "icon": "http://www.zhongchou.com/attachment/201606/27/17/1467018154.png"
+    },
+    {
+      "id": "22",
+      "name": "体育",
+      "icon": "http://www.zhongchou.com/attachment/201606/27/17/1467018948.png"
+    },
+    {
+      "id": "13",
+      "name": "动物",
+      "icon": "http://www.zhongchou.com/attachment/201606/27/17/1467018282.png"
+    },
+    {
+      "id": "16",
+      "name": "环保",
+      "icon": "http://www.zhongchou.com/attachment/201606/27/17/1467018310.png"
+    },
+    {
+      "id": "19",
+      "name": "艺术",
+      "icon": "http://www.zhongchou.com/attachment/201606/27/17/1467018324.png"
+    },
+    {
+      "id": "25",
+      "name": "影视音乐",
+      "icon": "http://www.zhongchou.com/attachment/201610/08/16/1475915415.jpg"
+    },
+    {
+      "id": "28",
+      "name": "庆典",
+      "icon": "http://www.zhongchou.com/attachment/201607/01/11/1467343355.png"
+    },
+    {
+      "id": "31",
+      "name": "社团",
+      "icon": "http://www.zhongchou.com/attachment/201607/01/11/1467343392.png"
+    },
+    {
+      "id": "34",
+      "name": "竞赛",
+      "icon": "http://www.zhongchou.com/attachment/201607/01/11/1467343407.png"
+    },
+    {
+      "id": "37",
+      "name": "创意",
+      "icon": "http://www.zhongchou.com/attachment/201607/01/11/1467343421.png"
+    },
+    {
+      "id": "40",
+      "name": "旅游",
+      "icon": "http://www.zhongchou.com/attachment/201607/01/11/1467343435.png"
+    },
+    {
+      "id": "58",
+      "name": "其他",
+      "icon": "http://www.zhongchou.com/attachment/201607/19/15/1468911872.png"
+    }
+  ]
+}

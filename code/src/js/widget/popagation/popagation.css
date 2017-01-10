@@ -1,0 +1,8 @@
+
+.pagerRegion1 li{list-style: none}
+.pagerRegion1{width:100%;text-align:center;}
+.pagerRegion1 .pager{display:inline-block}
+.pagerRegion1 .pager li{cursor:pointer;height:30px;line-height:30px;padding:0px 12px;text-align:center;border:1px solid #ccc;float:left;margin-right:10px;font-size:14px;border-radius:2px;}
+.pagerRegion1 .pager li.ellipsis{width:auto;border:0}
+.pagerRegion1 .pager li.on{background-color:#51aaf2;border-color:#51aaf2;color:#fff;}
+.pagerRegion1 .pager li.firstPage,.pagerRegion1 .pager li.lastPage{width:auto;padding:0 8px}

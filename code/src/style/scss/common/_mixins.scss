@@ -1,0 +1,80 @@
+﻿@charset "utf-8";
+/*
+ * @files:    Sass常用Function与Mixins
+ * @update:   2016-05-24 15:52
+ * @copyright:fengyun
+ */
+@mixin baseButton ($width,$height,$color,$fontSize,$backgroundColor,$border:true,$display:block,$flag:true){
+  @if($border)
+  {
+    border:1px solid  $base-border-color;
+  }
+  @if($display == block)
+  {
+    display:block;
+  } @else {
+    display:inline-block;
+  }
+  border-radius:2px;
+  text-align:center;
+  font-size:$fontSize;
+  color:$color;
+  height:$height;
+  line-height:$height;
+  width:$width;
+  background-color:$backgroundColor;
+
+  @if ($flag == true){
+    &:hover {
+      color: $color;
+      background-color: lighten($backgroundColor, 10%);
+    }
+  } @else {
+      &:hover {
+        color:$dark-blue;
+        border-color: $dark-blue;
+      }
+  }
+}
+/*
+ * @name: 边框及圆角
+ * @ps: 需要给出圆角大小及边框颜色
+ */
+@mixin border-radius($radius,$border-color:$dark-border-color) {
+  border-radius:$radius;
+  border:1px solid $border-color;
+}
+/*
+ * @name: 背景图片
+ * @ps: 需要设置背景图片的宽 高 及 位置
+ */
+@mixin backgroundImage($width,$height,$background-position,$flag)
+{
+  @if($flag)
+  {
+    display:inline-block;
+  } @else {
+    display:block;
+  }
+  width:$width;
+  height:$height;
+  background-position:$background-position;//置于background-image前会有问题
+  background-repeat:no-repeat;
+}
+/*
+ * @name: 文本溢出显示省略号
+ * @param: $width {dimension}  指定宽度（需要带单位）
+ * 1. Opera 9-10.6
+ * 2. Chrome 21+ bug https://bugs.webkit.org/show_bug.cgi?id=12190
+ */
+@mixin ellipsis($width:auto) {
+  @if $width {
+    width: $width;
+  }
+  white-space: nowrap;
+  word-wrap: normal;
+  overflow: hidden;
+  -o-text-overflow: ellipsis; /* 1 */
+  text-overflow: ellipsis;
+  text-align: left; /* 2 */
+}

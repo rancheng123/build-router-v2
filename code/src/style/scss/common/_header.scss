@@ -1,0 +1,232 @@
+﻿@charset "utf-8";
+.siteMTopBox{
+	height:70px;
+	background-color:#fff;
+	border-bottom:1px solid #eee;
+}
+.relative {
+	position:relative;
+}
+.siteHNavBox{
+	float: left;
+}
+.siteMIndexA{
+	float:left;
+	width:160px;
+	height:70px;
+}
+.siteHNavItem{
+	float:left;
+	position:relative;
+	z-index:10;
+}
+.siteHNavItem .siteHNavItemA{
+	height:70px;
+	line-height: 70px;
+	width: 60px;
+	padding:0px 5px;
+	display:block;
+	color: #333;
+	font-size: 14px;
+	text-decoration: none;
+	text-align: center;
+}
+.siteHNavItem .hidden{
+	display:none;
+}
+.siteM_fqBtn{
+	float:left;
+	height:30px;
+	line-height: 30px;
+	width: 90px;
+	text-align: center;
+	color: #fff;
+	margin: 20px 0px 0px 24px;
+	font-size: 14px;
+	border-radius:3px;
+	background: #2e86cb; /* Old browsers */
+	background: -moz-linear-gradient(top,  #55b5ff 0%, #2e86cb 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#55b5ff), color-stop(100%,#2e86cb)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #55b5ff 0%,#2e86cb 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #55b5ff 0%,#2e86cb 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #55b5ff 0%,#2e86cb 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #55b5ff 0%,#2e86cb 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#55b5ff', endColorstr='#2e86cb',GradientType=0 ); /* IE6-9 */
+}
+.siteM_fqBtn i{
+	width: 10px;
+	height: 10px;
+	background: url(../images/icon/siteHTopBg.png) no-repeat 0px -309px;
+	display:inline-block;
+	vertical-align:top;
+	margin:10px 3px 0px 0px;
+	*vertical-align:middle;
+	*margin:0px 3px 0px 0px;
+	-webkit-transition: -webkit-transform 0.6s ease-out;
+	-moz-transition: -moz-transform 0.6s ease-out;
+	transition: transform 0.6s ease-out;
+}
+.siteM_fqBtn:hover i{
+	-webkit-transform: rotate(360deg);
+	-moz-transform: rotate(360deg);
+	transform: rotate(360deg);
+}
+.siteHCountBox{
+	float:right;
+	margin-top: 17px;
+	height:52px;
+	position:relative;
+	*z-index:2;
+}
+.siteHCountBox:hover .siteHCountInner{
+	display:block;
+}
+.siteHCountBox:hover .siteHCountA,.siteHCodeImgBox:hover .siteHCodeA{color: #50abf2;font-weight:bold;border-left:1px solid #dedede;border-right:1px solid #dedede;background-color:#fff;}
+.siteHCountBox:hover .index-avatar img {
+	border:1px solid #55acef;
+}
+.siteHCountBox:hover .index-avatar i {
+	background-position: 0px 0px;
+}
+.index-avatar {
+	font-size:0;
+}
+.index-avatar img {
+	width: 34px;
+	height: 34px;
+	border:1px solid transparent;
+	border-radius:50%;
+}
+.index-avatar i {
+	width: 7px;
+	height:4px;
+	display:inline-block;
+	background:url(../images/icon/siteHTopBg.png) no-repeat -7px 0px;
+	vertical-align:top;
+	margin:16px 0px 0px 6px;
+	*vertical-align: middle;
+	*margin:0px 0px 0px 6px;
+}
+//.index-avatar:hover {
+//	cursor:pointer;
+//}
+.siteHCountBox:hover .index-avatar img {
+	border:1px solid #55acef;
+}
+.siteHCountBox:hover .index-avatar i {
+	background-position: 0px 0px;
+}
+.siteHCountInner{
+	display:none;
+	position:absolute;
+	right:0;
+	top:50px;
+	border:1px solid #dedede;
+	width: 163px;
+	/*height:135px;*/
+	/*padding-top: 15px;*/
+	background-color: #fff;
+	z-index:10;
+	box-shadow:0 0 5px rgba(0,0,0,.2);
+	padding-bottom: 12px;
+}
+.siteHCountInner a{
+	display:block;
+	width:146px;
+	height:32px;
+	line-height: 32px;
+	color: #666;
+	padding-left: 17px;
+}
+.siteHCountInner a:hover {
+	background-color:#f4f4f4;
+}
+.siteHCountInner i {
+	background:url(../images/icon/siteHTopBg.png);
+	@include  backgroundImage(14px,14px,0 0,true);
+	margin-right: 11px;
+	vertical-align:middle;
+}
+.siteHCountInner .nickname {
+	width:148px;
+	margin:0 0 8px -1px;
+	height: 47px;
+	line-height: 47px;
+	font-weight: bold;
+	color:#fff;
+	background-color:#55acef;
+}
+.siteHCountInner .nickname:hover {
+	background-color:#55acef;
+}
+.siteHCountInner .wddd i{
+	background-position: 0 -48px;
+}
+.siteHCountInner .guanzhu i{
+	background-position: 0 -215px;
+}
+.siteHCountInner .wdfq i{
+	background-position: 0 -87px;
+}
+.siteHCountInner .wdhb i{
+	background-position: 0 -564px;
+}
+.siteHCountInner .xiaoxi i{
+	background-position: 0 -250px;
+}
+.siteHCountInner .sz i{
+	background-position: 0 -127px;
+}
+.siteHCountInner .quit i{
+	background-position: 0 -168px;
+}
+/*发起类型*/
+.launch-type {
+	margin:25px 25px 0 0;
+	color:$dark-gray;
+	position:relative;
+	span {
+		color: $blue;
+	}
+	.launch-type-tit {
+		font-size:$fs14;
+		cursor: pointer;
+		span {
+			padding:0 10px 0 10px;
+		}
+	}
+	.select-down {
+		background:url(../images/icon/select-down.png);
+		@include  backgroundImage(13px,8px,0 0,true);
+		vertical-align:1px;
+	}
+}
+.launch-type-con{
+	position: absolute;
+	top: 35px;
+	left: 50%;
+	z-index:10;
+	margin-left:-160px;
+	width:325px;
+	display:none;
+	@include border-radius(0,$blue);
+	background-color:$white;
+	li {
+		cursor: pointer;
+		padding:10px;
+		span {
+			font-weight:bold;
+			font-size:$fs16;
+		}
+		&:first-child {
+			border-bottom:1px solid  $base-border-color;
+		}
+		&:hover {
+			background-color:$blue;
+			color:$white;
+			span {
+				color:$white;
+			}
+		}
+    }
+}

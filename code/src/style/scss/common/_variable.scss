@@ -1,0 +1,36 @@
+﻿@charset "utf-8";
+
+ // 字色配置
+ $base-text-color: #000;
+ $base-font-size:   12px;
+ $base-line-height: 1.5;
+ $base-font-family:  "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif;
+ $digital-family:     'GothamBold';
+ $blue:                     #51aaf2;
+ $white:                   #fff;
+ $gray:                    #333;
+ $orange:                 #ff5001;
+ $light-gray:             #999;
+ $dark-gray:             #666;
+ $dark-blue:              #6fbdfc;
+ $error:                     #bc0000;
+ // 背景色配置
+ $base-bg-color: $white;
+ $other-bg-color: #f5f6f8;
+ // 字号设置
+$fs13: 13px;
+$fs14: 14px;
+$fs16: 16px;
+$fs18: 18px;
+$fs20: 20px;
+$fs22: 22px;
+$fs24: 24px;
+$fs28: 28px;
+$fs30: 30px;
+$fs36: 36px;
+ // 边框颜色
+ $base-border-color:      $blue;
+ $gray-border-color:      #eee;
+ $dark-border-color:      #eaeaea;
+ $light-border-color:      #f1f1f1;
+

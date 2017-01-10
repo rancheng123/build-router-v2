@@ -1,0 +1,29 @@
+﻿@charset "utf-8";
+//完成发起
+.complete-btn{
+  @include  baseButton(278px,50px,$white,$fs18, $blue,false,inline-block,true);
+  &.disabled {
+    background-color:#ccc;
+    cursor:default;
+    :hover {
+      background-color:#ccc;
+    }
+  }
+}
+
+//我要捐助
+.want-donate{
+  @include  baseButton(auto,36px,$white,$fs16, $blue,false,block,true);
+}
+//同意
+.agree {
+  @include  baseButton(98px,36px,$white,$fs16, $blue,false,inline-block,true);
+}
+//确认提交
+.confirm-submit {
+  @include  baseButton(156px,50px,$white,$fs18, $blue,false,inline-block,true);
+}
+//取消
+.cancel {
+  @include  baseButton(156px,50px,$blue,$fs18, $white,true,inline-block,true);
+}
